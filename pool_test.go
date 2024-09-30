@@ -9,11 +9,12 @@ import (
 )
 
 type userTestStr struct {
-	Active bool
-	Name   string
-	Age    int
-	Items  []string
-	Spouse *userTestStr
+	Active  bool
+	Name    string
+	Age     int
+	Items   []string
+	Spouse  *userTestStr
+	private string
 }
 
 var (
